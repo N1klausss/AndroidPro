@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    >
+
+    <TextView
+        android:id="@+id/repos_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2014agenda"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/repos_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C++"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/repos_descrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dasdafasfa"
+        android:textSize="20sp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"/>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#33000000">
+
+    </View>
+
+</LinearLayout>

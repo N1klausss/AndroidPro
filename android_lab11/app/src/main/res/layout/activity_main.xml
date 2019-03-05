@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:theme="@style/MyEditText"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/clear"
+            android:layout_weight="1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="CLEAR"
+            android:textColor="#FFFFFF"
+            android:background="#66CDAA"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/fetch"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="FETCH"
+            android:textColor="#FFFFFF"
+            android:background="#66CDAA"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mrecyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:theme="@style/MyEditText"
+        />
+</LinearLayout>
